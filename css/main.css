@@ -1,0 +1,146 @@
+/*---------------Nav Elements--------------------------*/
+body{
+ background-color: #dcdcdc;
+ background-image:url("..//images/goat1.gif");
+ background-size: 543px;
+ background-repeat:no-repeat;
+ background-position: 49% 45%;
+ width:1373px;
+ margin-left: 22px;
+ text-indent: 5px;
+ font:17px/1.5 "Apple Chancery", Arial;
+ border-style: ridge;
+ border-color: #daa520;
+ text-shadow: 2px 2px 4px #daa520;
+}
+
+ul{
+ margin: 1px;
+ background-color: #daa520;
+ list-style-type: none;
+ padding: 0;
+ overflow: hidden;
+ 
+ 
+}
+li{
+ width: 100px;
+ float: right;
+ background-color: #daa520;
+ background: -moz-linear-gradient(top,  #ffebcd,  #daa520);
+ border-radius: 10px;
+
+}
+a{
+ text-decoration: underline;
+ display: block;
+ height: 30px;
+ line-height: 30px;
+ text-align: center;
+ 
+}
+a:link{
+ color: #0d7cff;
+}
+a:visited{
+ color: #0000ff;
+}
+a:hover{
+ color: #ffd700;
+ background: #f8f8ff;
+ border-radius: 10px;
+}
+a:active{
+ color:#5f9ea0;
+}
+/*---------------List Items--------------------------*/
+ol li{
+ float: none;
+ display: list-item;
+ background-color:#daa520;
+ text-align: center;
+ border-style: solid;
+ border-width: 2px;
+ border-color:#d2691e;
+ border-radius: 3px;
+ list-style-position: inside;
+ opacity: .7;
+ }
+/*---------------Class' & ID's--------------------------*/
+#anchor{
+ border: 3px solid #daa520;
+ border-radius: 22px;
+ border-style: double;
+ box-shadow: 2px 4px 4px #daa520; 
+ margin-left: 572px;
+ margin-bottom: 22px;
+ }
+.CPO{
+ margin-left: 515px;
+ text-shadow: 2px 2px 4px #daa520;
+}
+.LOGO{
+ margin-top:-28px;
+ margin-left: 6px;
+ color:#f8f8ff;
+ text-shadow: 2px 2px 4px #0000ff;
+}
+ 
+/*---------------Gallery--------------------------*/ 
+.gallery{
+ border: 2px dashed #ffebcd;
+ list-style-type: none;
+ width: 392px;
+ margin-left: 5px;
+ margin-top: 20px;
+ padding: 5px;
+ overflow: hidden;
+}
+#coin {
+ border: 1px solid #dcdcdc;
+ padding: 1px;
+ float: left;
+ margin-top: 121px;
+ margin-right: -210px;
+ 
+}
+#skull{
+ border: 1px solid #dcdcdc;
+ padding: 1px;
+ float: left;
+ margin-right: 30px;
+}
+#ccus{
+ border: 1px solid #dcdcdc;
+ padding: 1px;
+ float: left;
+ margin-left: -87px;
+}
+#the_anchor{
+ border: 1px solid #dcdcdc;
+ padding: 1px;
+ float: left;
+ margin-left: -175px;
+}
+/*---------------Headers---------------*/
+h3{
+ margin-top: 125px; 
+}
+h4{
+ margin-top: 120px;
+}
+h5{
+ margin-top: 120px;
+}
+.firstp{
+ -moz-column-count: 3;
+ -webkit-column-count: 3;
+}
+.secondp{
+  -moz-column-count: 3;
+  -webkit-column-count: 3; 
+}
+
+
+
+  
