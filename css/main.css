@@ -1,21 +1,20 @@
 /*---------------Nav Elements--------------------------*/
 body{
  background-color: #dcdcdc;
- background-image:url("..//images/goat1.gif");
- background-size: 543px;
+ background-image:url("..//images/skullcoin.jpg");
+ background-size: 25%;/*543px*/
  background-repeat:no-repeat;
  background-position: 49% 45%;
- width:1373px;
- margin-left: 22px;
- text-indent: 5px;
- font:17px/1.5 "Apple Chancery", Arial;
+ width: 96%;/*1373*/
+ margin-left:1.64547%;/*22px*/
+ text-indent: 0.36416%;/*5px*/
+ font:100%/1.5 "Bad Script", cursive, Arial;
  border-style: ridge;
  border-color: #daa520;
  text-shadow: 2px 2px 4px #daa520;
 }
-
 ul{
- margin: 1px;
+ margin: 0.0%;/*1px*/
  background-color: #daa520;
  list-style-type: none;
  padding: 0;
@@ -24,7 +23,7 @@ ul{
  
 }
 li{
- width: 100px;
+ width: 8%;/*100*/
  float: right;
  background-color: #daa520;
  background: -moz-linear-gradient(top,  #ffebcd,  #daa520);
@@ -72,66 +71,65 @@ ol li{
  border-radius: 22px;
  border-style: double;
  box-shadow: 2px 4px 4px #daa520; 
- margin-left: 572px;
- margin-bottom: 22px;
+ margin-left: 42%;
+ margin-bottom: 10%;/*22px*/
  }
 .CPO{
- margin-left: 515px;
+ margin-left: 39%;/*515px*/
  text-shadow: 2px 2px 4px #daa520;
+ margin-top: 8%;
 }
 .LOGO{
- margin-top:-28px;
- margin-left: 6px;
+ margin-top: -2.0%;/*-28px*/
+ margin-left:.2%;/*6px*/
  color:#f8f8ff;
  text-shadow: 2px 2px 4px #0000ff;
 }
  
 /*---------------Gallery--------------------------*/ 
-.gallery{
- border: 2px dashed #ffebcd;
+.gallery li{
  list-style-type: none;
- width: 392px;
- margin-left: 5px;
- margin-top: 20px;
- padding: 5px;
- overflow: hidden;
-}
-#coin {
- border: 1px solid #dcdcdc;
- padding: 1px;
+ width: 10%;
+ padding: .4%;
+ margin-left: .4%;
+ margin-bottom: 5%;
  float: left;
- margin-top: 121px;
- margin-right: -210px;
+ background: none;
+ border: 2px double #ffebcd;
+ border-radius: 5px;
+ overflow: hidden;
  
 }
-#skull{
- border: 1px solid #dcdcdc;
- padding: 1px;
+#coin {
+ border: 2px solid #dcdcdc;
  float: left;
- margin-right: 30px;
+ }
+#goat{
+ border: 2px solid #dcdcdc;
+ float: left;
 }
 #ccus{
- border: 1px solid #dcdcdc;
- padding: 1px;
+ border: 2px solid #dcdcdc;
  float: left;
- margin-left: -87px;
 }
 #the_anchor{
- border: 1px solid #dcdcdc;
- padding: 1px;
+ border: 2px solid #dcdcdc;
  float: left;
- margin-left: -175px;
+}
+img{
+ max-width: 100%;
 }
 /*---------------Headers---------------*/
 h3{
- margin-top: 125px; 
+ margin-top: 9.10415%;/*125px*/ 
 }
 h4{
- margin-top: 120px;
+ margin-top: 8.73998%;/*120px*/
 }
 h5{
- margin-top: 120px;
+ margin-top: 8.73998%;/*120px*/
 }
+/*---------------Paragraphs---------------*/
 .firstp{
  -moz-column-count: 3;
  -webkit-column-count: 3;
@@ -140,6 +138,41 @@ h5{
   -moz-column-count: 3;
   -webkit-column-count: 3; 
 }
+ 
+ /*========================Media Queries============================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 1337px){ 
+  body { background-color: #fff8dc; }
+  body { background: -moz-linear-gradient(top,  #5f9ea0,  #daa520);}
+  ol li{opacity: .8;} 
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  body { background-color: #f0e68c; }
+  .LOGO { display: none;}
+  #ccus { display: none;}
+  #the_anchor{ display: none;}
+  body {background-image: none;}
+  .firstp{ -moz-column-count: 2; -webkit-column-count: 2;}
+  .secondp{ -moz-column-count: 2; -webkit-column-count: 2;} 
+}
+@media only screen and (max-width: 479px){
+  body { background-color: #ff8c00; }
+  body { background-image: none }
+  article{ display: none;}
+  .LOGO { display: none;}
+  .gallery { display: none;} 
+  h5 { display: none;}
+  section { float: none; width: 90%;}
+  #Gall { display: none; }
+  #Steps { margin-right: 2%;}
+  #anchor { margin-left: 20%;}
+  .CPO { margin-left: 14% }
+  .firstp{ -moz-column-count: 2; -webkit-column-count: 2;}
+  .secondp{ -moz-column-count: 2; -webkit-column-count: 2;}
+}
+   
+
+
 
 
 
