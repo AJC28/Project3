@@ -3,12 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" contnent="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
 
   <title>Project3</title>
   <link rel="stylesheet" href="css/main.css" >
-  <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
+ 
 </head>
 
 <body>
@@ -16,7 +17,7 @@
     <!--Main Navigation -->
     <nav>
       <ul>
-        <li id="Sea"><a href="">Sea Stories</a></li>
+        <li id="Sea"><a href="#sea">Sea Stories</a></li>
 
         <li id="Gall"><a href="#coin">Gallery</a></li>
 
@@ -56,7 +57,7 @@
   <section>
     <h3>What is his or her purpose?</h3>
 
-    <p>At the rank of Chief, the First Class Petty Officer 
+    <p>At the rank of Chief, he or she 
     takes on more administrative duties.  CPO’s serve a dual role as both technical experts and as leaders, 
     with the emphasis being more on leadership as they progress through the CPO ranks. 
     One collateral duty for all Chiefs is to train Junior Officers. Like Petty Officers, every 
@@ -102,26 +103,120 @@
       height="119"></a></li>
     </ul>
    </div>   
-   
-  <div> 
-   
-   
-   <!--Sea Story link /space for tables-->
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
- </div> 
+  
+  <!-- Tables  --> 
+    <div id="tables">
+   	   <table> 	   
+   	   <caption class="AAC"><strong> Ask A Chief ???</strong></caption>        
+	         <tr>
+ 	             <th>Name</th>
+ 	             <th>Title</th>
+ 	             <th>Email </th>
+ 	          </tr>
+ 	          <tr>
+ 	             <td> Ace Gilmore</td>
+ 	             <td> Builder Senior Chief (20+ yrs)</td>
+ 	             <td>ace.gilmore@navy.mil</td>
+ 	         </tr>
+ 	          <tr>
+ 	             <td>Mark Gilreath</td>
+ 	             <td> Construction Mechanic Chief (20+ yrs)</td>  
+ 	             <td>mark.gilreath@navy.mil</td>
+ 	         </tr>
+ 	          <tr>
+ 	             <td>Carl Day</td>
+ 	             <td>Builder Chief (19+ yrs)</td>
+ 	             <td>carl.day@navy.mil</td>
+ 	         </tr>
+ 	          <tr>
+ 	             <td>Noah Ziegler  </td> 
+ 	             <td>Chief Builder Select (10+ yrs)</td>
+ 	             <td>noah.ziegler@navy.mil</td>
+ 	         </tr>
+ 	   </table>         
+ 	</div>
+ 	
+ 	<!-- Forms -->
+ 	
+ 	  <form id="sea">
+ 	  <h6> Have a Sea Story? Tell us about it. </h6>
+  
+    <div>
+      <label for="name_first">First Name</label>
+      <input id="name_first" name="first_last" type="text"/>
+    </div>
 
+    <div>
+     <label for="name_last">Last Name</label>
+     <input id="name_last" name="first_last" type="text"/>
+    </div>
+
+    <div>
+      <label for="phone">Phone Number</label>
+      <input id="phone" name="phone" type="text"/>
+    </div>
+
+    <div>
+      <label for="email">Email Address</label> 
+      <input id="email" name="email" type="text"/>
+    </div>
+
+    <div>
+      <label for="email">What best describes you?</label>
+    </div>
+
+    <div>
+      <select name="role" id="role">
+        <option>Master Chief Active</option>
+        <option>Senior Chief Active</option>
+        <option>Chief Active</option>
+        <option>Chief Select Active</option>
+        <option>Master Chief Reserve</option>
+        <option>Senior Chief Reserve</option>
+        <option>Chief Reserve</option>
+        <option>Chief Select Reserve</option>
+         <option>Master Chief Retired</option>
+        <option>Senior Chief Retired</option>
+        <option>Chief Retired</option>
+        <option>Other</option>
+     </select>
+    </div>
+
+    <div>
+      <label for="email">Regarding</label>
+    </div>
+
+    <div>
+      
+      <select name="regarding" id="regarding">
+      
+        <option>Sea Story</option>
+        <option>General Questions</option>
+        <option>Suggestion about our site</option>
+        <option>Site Error</option>
+        <option>Legal</option>
+        
+      </select>
+    </div>
+
+    <div>
+      <textarea cols="35" rows="19" id="message" name="message" ></textarea>
+      <label for="message">Message</label> 
+    </div>
+
+    <div>
+       <input type="checkbox" name="contact_phone" id="contact_phone">
+       <p id="text">I prefer to be contacted by email</p> 
+    </div> 
+
+    <div>   
+       <button type="submit" name="submit" class="button" >Send Message</button>
+    </div>
+       
+  </form>
   <aside>
     <footer>
-      <p>By no means does this site represent the U.S. Navy or it's constituents, all the information 
+      <p>NOTE: By no means does this site represent the U.S. Navy or it's constituents, all the information 
       therein has been gathered via the web and other means.</p>
     </footer>
   </aside>
